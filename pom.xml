@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.giahuy</groupId>
+    <artifactId>25.SU.SWT301</artifactId>
+    <version>83.86</version>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!--    đây là nơi khai báo các thư viện mình cần dùng, khai báo theo 1 cú pháp cho
+      trước, ko gõ tự do
+            Gõ đúng cú pháp thư viện, thì phía HẬU TRƯỜNG CỦA
+            INTELIJI/NETBEANS/ECLIPSE CÓ 1 TOOL KHÁC SẼ ĐẢM NHẬN VIỆC ĐI TẢI THƯ VIỆN TRÊN MẠNG
+            VỀ MÁY, ADD PROJECT ĐỂ TA SẴN SÀNG XAIF CLASS DO THƯ VIỆN CUNG CẤP
+            GIỐNG CƠ CHẾ HOẠT ĐỘNG CỦA C#, NODE.JS/REACT
+            JAVA: TOOL NÀY TÊN LÀ MAVEN, CÂU LỆNH LÀ MVN
+            NODE: TOOL NÀY TÊN LÀ NODE PACKAGE MANAGEMENT,
+            C# : TOOL NÀY TÊN LÀ NUGET....-->
+    <!--                    mvnrepository.com-->
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.13.0</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+</project>
