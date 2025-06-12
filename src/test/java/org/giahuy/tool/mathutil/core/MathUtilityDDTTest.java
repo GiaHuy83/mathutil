@@ -16,7 +16,7 @@ class MathUtilityDDTTest {
         return new Object[][]{  {2, 2},
                                 {6, 3},
                                 {24, 4},
-                                {120, 5}
+                                {1200, 5}
                                     };
     }
     @ParameterizedTest
